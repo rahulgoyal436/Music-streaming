@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$link=mysqli_connect("shareddb1e.hosting.stackcp.net","musicstreaming-363740ff","rahul1234~?","musicstreaming-363740ff");
+	$link=mysqli_connect("shareddb1e.hosting.stackcp.net","DATABASE NAME","PASSWORD","DATABASE NAME");
 	if(mysqli_connect_error()) {
     	print_r(mysqli_connect_error());
       	exit();
